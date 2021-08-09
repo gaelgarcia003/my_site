@@ -7,9 +7,12 @@ body{
 }
 
 hr{
-    border-top: 2px solid white;
+    border: none;
+    border-top: 2px dotted white;
     width: 30px;
+    height: 30px;
 }
+
 /* DIVS */
 /*HEADER*/
 .header{
@@ -96,12 +99,24 @@ h3{
 .middle_container{
     background-color: #DAD0C2;
     position: relative;
-    padding: 10px;
+    padding: 20px;
 
 }
+
+
 .me_again, .code_icon, .talk_icon{
     width: 15%;
     margin: 5px;
+}
+
+.code_icon{
+    float: left;
+    margin-right: 30px;
+}
+
+.talk_icon{
+    float: right;
+    margin-left: 30px;
 }
 .profile{
     display: inline-block;
@@ -111,7 +126,8 @@ h3{
 .skill-row{
     display: inline-block;
     width: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 .p_middle{
     margin-bottom: 0;
@@ -119,6 +135,39 @@ h3{
 .btn{
     display: block;
 }
+.profile_text{
+    line-height: 2;
+    text-align: left;
+}
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 9px;
+    line-height: 9px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    width: 151px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 25px;
+    background-color: #CDBBA7;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+ }
+ 
+ .btn:hover {
+    color: black;
+    background: #F4DFD0;
+    border: solid #337FED 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
 /*BOTTOM*/
 
 .bottom_container{
